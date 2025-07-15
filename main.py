@@ -6,7 +6,7 @@ import streamlit as st
 import json
 from datetime import datetime
 
-# Set your OpenAI API key here
+# Set your OpenAI API key here from environmental variable
 openai.api_key = os.getenv("OPENAI_API_KEY")  # or directly assign the key for local use
 
 
